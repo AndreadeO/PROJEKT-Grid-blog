@@ -174,3 +174,23 @@ footer a {
 .meta {
 	color: #b2bec3;
 }
+
+blockquote::before {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 3px;
+	background-color: #a3cb38;
+	margin-left: 50%;
+	margin-bottom: 20px;
+}
+
+blockquote::after {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 3px;
+	background-color: #a3cb38;
+	margin-left: 50%;
+	margin-top: 20px;
+}
