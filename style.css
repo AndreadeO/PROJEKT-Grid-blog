@@ -78,7 +78,8 @@ header {
 
 h1 {
 	font-size: 100px;
-	color: #a3cb38 ;
+	color: #a3cb38;
+	margin-bottom: 50px;
 }
 
 h2 {
@@ -87,7 +88,7 @@ h2 {
 
 }
 
-a {
+.tip a {
 	color: #ea2027 ;
 
 }
@@ -95,14 +96,17 @@ article p {
 	grid-column: 2/3;
 }
 
+p {
+	margin: 0;
+}
 
 .tip {
 	grid-column: 1;
-	border: 1px solid #b2bec3;
+	border: 1px solid #edf3f5;
 	width: 100%;
 	padding: 30px;
 	margin: 0;
-	background-color: #b2bec3;
+	background-color: #edf3f5;
 	color: #636e72;
 
 
@@ -159,6 +163,12 @@ h2 {
 
 footer {
 	grid-column: 2;
+	color: #b2bec3;
+}
+
+footer a {
+	color: #b2bec3;
+
 }
 
 .meta {
